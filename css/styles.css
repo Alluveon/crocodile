@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*Global*/
 :root{
     --accent-color: #66FF7D;
@@ -31,6 +31,14 @@ p {
     margin-bottom: 20px;
 }
 
+h1 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: var(--accent-color);
+    letter-spacing: 10px;
+}
+
 #hero {
     min-width: 900px;
 }
@@ -51,7 +59,14 @@ p {
 .navbar{
     background-color:var(--dark-color);
     color: #fff;
-    height: 100px;
+    height: 70px;
+}
+
+.navbar-fixed-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .navbar .flex{
@@ -61,7 +76,7 @@ p {
     display: inline;
     width: 100%;
     padding: 10px;
-    margin: 20px ;
+    margin: 0 10px ;
 }
 
 .navbar a {
@@ -79,4 +94,10 @@ p {
 
 .hero img {
     width: 100%;
+}
+
+.basic .grid{
+    display: grid;
+    gap: 30px;
+    overflow: visible;
 }
