@@ -1,81 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 /*Global*/
-:root{
-    --accent-color: #66FF7D;
-    --dark-color: #222629;
-    --middle-color: #474B4f;
-    --light-color: #6b6e70;
-}
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    font-family: 'Rubik', sans-serif;
-    line-height: 1.8;
-    background-color: var(--dark-color);
-}
-
-ul {
-    list-style-type: none;
-
-}
-
-li {
-    display: inline;
-    padding: 3px 20px;
-}
-
-a{
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 50px;
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    color: var(--accent-color);
-    letter-spacing: 10px;
-}
 
 
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--middle-color);
-    flex-basis: 1;
-    padding: 5px 10px;
-   
-}
-.nav li {
-    display: inline-flex;
-    color: #fff;
-}
-
-.nav li:hover{
-    background-color: #66FF7D;
-    color: var(--dark-color);
-    border-radius: 4px;
-}
-
-img {
-    width: 95%;
-}
-
-.card {
-    background-color: #66FF7D;
-    color: var(--dark-color);
-    padding: 10px;
-    margin: 5px;
-    border-radius: 4px;
-
-}
-
-.grid {
-   display: grid; 
+* {
+    margin: 0;
+    padding: 0;
 }
