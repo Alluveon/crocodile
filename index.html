@@ -3,7 +3,11 @@
     END: ? 
 
     revise: 3/26/2021
-      trying to use grid this time & changing the process a bit, more streamlined-->
+      trying to use grid this time & changing the process a bit, more streamline
+    
+    3/29/2021 NOTE: change ID tags from current name to section(#) tags. Just to keep it organized better
+    
+    -->
 <html lang="en">
 <head> 
     <meta charset="UTF-8">
@@ -17,26 +21,37 @@
 </head>
 
 <body>
-  <header class="header">
+  <header id="top" class="header">
     <div>
     <h1>Crocodile Sanctuary</h1>
-    
-    <nav class="nav">
+    </div>
+
+    <div>
+    <nav class="navbar">
       <ul>
-        <li class="Home">Home</li>
-        <li class="crocs">Crocodiles</li>
-        <li class="credits">Credits</li>
-        <li class="contact">Contact</li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#section1">Basic Information</a></li>
+        <li><a href="#section2">Characteristics</a></li>
+        <li><a href="#section3">Habitat</a></li>
+        <li><a href="#section4">Behavior</a></li>
+        <li><a href="#section5">Reproduction</a></li>
+        <li><a href="#top">Back to Top</a></li>
+        
       </ul>
     </nav>
-
-    <img src="images/Crocodile_in_Maltj,_Gujarat.jpg" />
+    
   </header>
+
+  <div class="showcase">
+    <img src="images/Crocodile_in_Maltj,_Gujarat.jpg" />
+  </div>
 
   <!-- main -->
   <div class="wrapper grid">
+
+
     <section class="title">
-      <h2 class="title">Mugger Crocodiles</h2>
+      <h2 id="section1" class="title">Mugger Crocodiles</h2>
     </section>
 
     <section class="basic">
@@ -52,8 +67,9 @@
         <p></p>
     </section>
 
-    <section class="characteristics">
-      <h2>Characteristics</h2>
+
+    <section  class="characteristics">
+      <h2 id="section2">Characteristics</h2>
 
       <img src="images/croc-resized.jpg"/>
       <p>
@@ -71,8 +87,9 @@
         in the British Museum of Natural History measures 3.7 m (12 ft 2 in).[15</p>
     </section>
 
-    <section class="behavior">
-      <h2>Behavior</h2>
+
+    <section  class="behavior">
+      <h2 id="section4">Behavior</h2>
 
       <p>The mugger crocodile is a powerful swimmer that uses its tail and hind feet to move forward, change direction and submerge. 
         It belly-walks, with its belly touching ground, at the bottom of waterbodies and on land. During the hot dry season, 
@@ -80,13 +97,14 @@
         individuals are tolerant of others during this period. Territorial behaviour increases during the mating season.</p>
 
         <img src="images/Mugger_crocodile_(Gando)_in_Chabahar,_Iran-_by_Hadi_Karimi.jpg" />
-        <img src="images/17163785991_Jpg_(106032341).jpeg />"
+        <img src="images/17163785991_Jpg_(106032341).jpeg" />
       <p>Mugger crocodiles have been documented using lures to hunt birds. This means they are among the first reptiles recorded to use tools. 
         By balancing sticks and branches on their heads, they lure birds that are looking for nesting material.</p>
     </section>
 
+
     <section class="repro">
-      <h2>Reproduction</h2>
+      <h2 id="section5">Reproduction</h2>
 
       <p>Female muggers obtain sexual maturity at a body length of around 1.8–2.2 m (5.9–7.2 ft) at the age of about 6.5 years, 
         and males at around 2.6 m (8 ft 6 in) body length. The reproduction cycle starts earliest in November at the onset of the 
@@ -103,28 +121,27 @@
         of 28–31 °C (82–88 °F), and only males at 32.5 °C (90.5 °F). Percentage of females in a clutch decreases at constant temperatures between 
         32.6 and 33 °C (90.7 and 91.4 °F), and of males between 31 and 32.4 °C (87.8 and 90.3 °F).</p>
 
-    </section>
-    
-    <aside class="navbar">
-      <ul>
-        <li>Basic Information</li>
-        <li>Habitat</li>
-        <li>Characteristics</li>
-        <li>Back to Top</li>
-      </ul>
-    </aside>
-  </div>
+      </section>
 
  
   <footer class="footer">
-    <section class="credits">
+    <section class="credits grid"> <!--Can you not attach id to link with a section?-->
       <div>
-      <h2>Credits</h2>
+      <h2 id="credit">Credits</h2>
         <h3>Images</h3>
+          <ul>
+            <li><a href="https://commons.wikimedia.org/wiki/User:Rupeshsarkar">Rupeshsarkar</a></li>
+            <li><a href="https://commons.wikimedia.org/wiki/User:HADI">Hadi Karimi</a></li>
+            <li><a href="https://www.sharpphotography.co.uk/">Charles J. Sharp</a></li>
+          </ul>
        </div>
   
        <div>
         <h3>Information</h3>
+        <p>Copyright &copy; 2021 Wikimedia Foundation, Inc.  
+          Used under 
+          <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">
+            Creative Commons Attribute-ShareAlike License</a> </p>
         </div>
     </section>
 

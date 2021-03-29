@@ -2,8 +2,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 /*Global*/
 
-
+/*Lets just do sticky nav on top if we can*/
 * {
     margin: 0;
     padding: 0;
 }
+
+img {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.wrapper img {
+    width: 33.33333%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.wrapper .title {
+    grid-column-start: 3;
+    grid-column-end: 4;    
+}
+
+
+.wrapper .basic {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.wrapper .characteristics {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+
+.wrapper .behavior {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.wrapper .repro {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
