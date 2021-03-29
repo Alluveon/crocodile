@@ -1,0 +1,49 @@
+/*LAYOUT*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.header h1{
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+.header ul{
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.wrapper .basic {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.wrapper .characteristics {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.wrapper .behavior {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.wrapper .repro {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.wrapper .footer {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+

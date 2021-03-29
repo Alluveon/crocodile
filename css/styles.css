@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 /*Global*/
 
+:root {
+    --primary-color: #292929;
+    --secondary-color: #70f7a4;
+    --tertiary-color: #f3f3f3;
+}
 /*Lets just do sticky nav on top if we can*/
 * {
     margin: 0;
@@ -22,54 +27,9 @@ li {
     padding: 10px;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+p {
+    line-height: 1.6em;
 }
 
 
-.wrapper img {
-    width: 33.33333%;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.wrapper .title {
-    grid-column-start: 3;
-    grid-column-end: 4;    
-}
-
-
-.wrapper .basic {
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
-
-.wrapper .characteristics {
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
-
-
-.wrapper .behavior {
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
-
-.wrapper .repro {
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
-
-
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-
-    
-}
 
